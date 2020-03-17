@@ -47,9 +47,6 @@ for (i = 0; i < close.length; i++) {
 
 //Display banner when pressing button submit
 
-// function showElem() {
-//     document.getElementById("alert").style.visibility = "visible"; 
-//   }
 
   function showElem() {
     // get the banner
