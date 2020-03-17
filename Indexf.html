@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <form class="Form" onsubmit="return ValidateForm()">
+    <ul>
+      <li>
+        <div id="alert">
+          <span class="closebtn">&times;</span>  
+        <strong>Hi!</strong> Thank you for contacting us!
+      </div>
+    </li>
+
+        <li>
+          <input type="text" id="firstname"  name="first_name" placeholder="First Name"> 
+        </li>
+         
+        <li>
+         <input type="text" id="lastname" name="last_name" placeholder="Last Name">  
+        </li>
+         
+
+        <li>
+          <textarea id="msg" name="user_message" placeholder="Your message here..."></textarea>
+          <p class="error"></p>
+         </li>
+        <br>
+       
+
+        <p>Gender</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+     </ul>
+
+     <div id="buttonS">
+      <button onclick="showElem()" onclick="myName()" value="Submit">Submit</button>
+      <div>
+
+  
+    </form>
+    <script src="mainf.js"></script>
+</body>
+</html>
